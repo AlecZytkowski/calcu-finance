@@ -1,0 +1,22 @@
+.optionCardDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 200px;
+    border: solid black 2px;
+    border-radius: 20px;
+    margin: 10px;
+  }
+  
+  .optionCardHeader {
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .optionCardDescription {
+    margin: 5px;
+    padding: 20px;
+  }
+  
