@@ -1,4 +1,4 @@
-import "./OptionCard.css";
+import "../Calculator Options/OptionCard.css";
 
 export const OptionCard = ({ optionName, optionImage, optionDescription }) => {
   return (

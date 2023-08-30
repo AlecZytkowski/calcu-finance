@@ -1,7 +1,7 @@
 import './App.css';
 import { useState } from 'react';
-import { WelcomeCard } from "./WelcomeCard";
-import { CalculatorOptions } from './CalculatorOptions';
+import { WelcomeCard } from "./Welcome/WelcomeCard";
+import { CalculatorOptions } from './Calculator Options/CalculatorOptions';
 
 function App() {
   const [userName, setUserName] = useState("");

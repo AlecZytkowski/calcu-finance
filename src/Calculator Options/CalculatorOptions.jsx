@@ -1,9 +1,9 @@
-import "./CalculatorOptions.css";
+import "../Calculator Options/CalculatorOptions.css";
 import { useState } from "react";
 import { OptionCard } from "./OptionCard";
-import { HomeLoanCalculator } from "./HomeLoanCalculator";
-import { AutoLoanCalculator } from "./AutoLoanCalculator";
-import { RefinanceCalculator } from "./RefinanceCalculator";
+import { HomeLoanCalculator } from "../Calculator Options/Home Loan Calculator/HomeLoanCalculator";
+import { AutoLoanCalculator } from "../Calculator Options/Auto Loan Calculator/AutoLoanCalculator";
+import { RefinanceCalculator } from "../Calculator Options/Refinance Calculator/RefinanceCalculator";
 
 export const CalculatorOptions = () => {
   const [selectedOption, setSelectedOption] = useState("defaultOption");

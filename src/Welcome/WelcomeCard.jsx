@@ -1,6 +1,6 @@
-import "./WelcomeCard.css";
+import "../Welcome/WelcomeCard.css";
 import { useState } from 'react';
-import { CalculatorOptions } from "./CalculatorOptions";
+import { CalculatorOptions } from "../Calculator Options/CalculatorOptions";
 
 export const WelcomeCard = () => {
   const [userName, setUserName] = useState("");
