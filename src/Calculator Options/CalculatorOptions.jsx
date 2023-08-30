@@ -24,13 +24,13 @@ export const CalculatorOptions = () => {
         <div onClick={(e) => setSelectedOption("autoCalc")}>
           <OptionCard
             optionName="Auto Loan"
-            optionDescription="This is your second option"
+            optionDescription="Work in progress..."
           />
         </div>
         <div onClick={(e) => setSelectedOption("refinanceCalc")}>
           <OptionCard
             optionName="Refinancing"
-            optionDescription="This is your third option"
+            optionDescription="Work in progress..."
           />
         </div>
       </div>

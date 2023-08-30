@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './HomeLoanCalculator.css'
 
 export const HomeLoanCalculator = () => {
 
@@ -27,9 +28,9 @@ export const HomeLoanCalculator = () => {
   };
 
   return (
-    <div>
+    <div className="homeLoanCalculatorDiv">
       <h1>Home Loan Calculator</h1>
-      <div>
+      <div className="calculatorItem">
         <label>Loan Term: </label>
         <select value={loanTerm} onChange={(e) => setLoanTerm(e.target.value)}>
           <option value={30}>30 year fixed</option>
@@ -37,7 +38,7 @@ export const HomeLoanCalculator = () => {
           <option value={15}>15 year fixed</option>
         </select>
       </div>
-      <div>
+      <div className="calculatorItem">
         <label>Price: </label>
         <select value={loanAmount} onChange={(e) => setLoanAmount(e.target.value)}>
           <option value={50000}>$50,000</option>
@@ -53,7 +54,7 @@ export const HomeLoanCalculator = () => {
           <option value={1000000}>$1,000,000</option>
         </select>
       </div>
-      <div>
+      <div className="calculatorItem">
         <label>Down Payment: </label>
         <select value={downPaymentPercentage} onChange={(e) => setDownPaymentPercentage(e.target.value)}>
           <option value={3}>3%</option>
