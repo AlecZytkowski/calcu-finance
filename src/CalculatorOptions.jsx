@@ -18,7 +18,7 @@ export const CalculatorOptions = () => {
         <div onClick={(e) => setSelectedOption("financeCalc")}>
           <OptionCard
             optionName="Home Finance"
-            optionDescription="This is your first option"
+            optionDescription="An efficient and user-friendly solution to quickly estimate the approximate monthly mortgage payment."
           />
         </div>
         <div onClick={(e) => setSelectedOption("autoCalc")}>

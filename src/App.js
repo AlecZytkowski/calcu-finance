@@ -15,9 +15,8 @@ function App() {
         </div>
       </div>
     )
-  } {
-    <CalculatorOptions />
   }
+    <CalculatorOptions />
   
 }
 
