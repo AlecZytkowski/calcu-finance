@@ -3,7 +3,6 @@ import { useState } from "react";
 import { OptionCard } from "./OptionCard";
 import { HomeLoanCalculator } from "../Calculator Options/Home Loan Calculator/HomeLoanCalculator";
 import { AutoLoanCalculator } from "../Calculator Options/Auto Loan Calculator/AutoLoanCalculator";
-import { RefinanceCalculator } from "../Calculator Options/Refinance Calculator/RefinanceCalculator";
 
 export const CalculatorOptions = () => {
   const [selectedOption, setSelectedOption] = useState("defaultOption");
@@ -18,19 +17,13 @@ export const CalculatorOptions = () => {
         <div onClick={(e) => setSelectedOption("financeCalc")}>
           <OptionCard
             optionName="Home Finance"
-            optionDescription="An efficient and user-friendly solution to quickly estimate the approximate monthly mortgage payment."
+            optionDescription="An efficient and user-friendly solution to quickly estimate your approximate monthly mortgage payment."
           />
         </div>
         <div onClick={(e) => setSelectedOption("autoCalc")}>
           <OptionCard
             optionName="Auto Loan"
-            optionDescription="Work in progress..."
-          />
-        </div>
-        <div onClick={(e) => setSelectedOption("refinanceCalc")}>
-          <OptionCard
-            optionName="Refinancing"
-            optionDescription="Work in progress..."
+            optionDescription="A  tool designed to provide you with quick and accurate insights into your potential monthly auto loan payments."
           />
         </div>
       </div>
@@ -50,15 +43,6 @@ export const CalculatorOptions = () => {
     return (
       <>
         <AutoLoanCalculator />
-        <button onClick={resetSelection}>Go Back</button>
-      </>
-    );
-  }
-
-  if (selectedOption === "refinanceCalc") {
-    return (
-      <>
-        <RefinanceCalculator />
         <button onClick={resetSelection}>Go Back</button>
       </>
     );

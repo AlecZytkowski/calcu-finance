@@ -1,0 +1,11 @@
+.autoLoanCalculatorDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.calculatorItem {
+    display: flex;
+    align-items: end;
+}
