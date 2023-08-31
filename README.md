@@ -1,6 +1,6 @@
 ## Description
 
-A dynamic ReactJS project featuring Home Mortgage, Auto Loan, and Refinance calculators. Strengthening skills in ReactJS by utilizing useState, while enabling real-time, user-triggered calculations. Empowering users to make informed financial decisions through interactive interfaces.
+A dynamic ReactJS project featuring a Home Mortgage, and an Auto Loan calculator all in one! Strengthening skills in ReactJS by utilizing useState, while enabling real-time, user-triggered calculations. Empowering users to make informed financial decisions through interactive interfaces.
 
 # Getting Started with Create React App
 
