@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/calcu-finance/static/css/main.42f41f8b.css",
+    "main.js": "/calcu-finance/static/js/main.3f7b9d44.js",
+    "static/js/787.9bf2fc0d.chunk.js": "/calcu-finance/static/js/787.9bf2fc0d.chunk.js",
+    "index.html": "/calcu-finance/index.html",
+    "main.42f41f8b.css.map": "/calcu-finance/static/css/main.42f41f8b.css.map",
+    "main.3f7b9d44.js.map": "/calcu-finance/static/js/main.3f7b9d44.js.map",
+    "787.9bf2fc0d.chunk.js.map": "/calcu-finance/static/js/787.9bf2fc0d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42f41f8b.css",
+    "static/js/main.3f7b9d44.js"
+  ]
+}
